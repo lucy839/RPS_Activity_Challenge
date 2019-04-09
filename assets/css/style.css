@@ -1,0 +1,190 @@
+/* general */
+body{
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover; 
+}
+.jumbotron,.login h1, .message h1, .status h1, #message, #user1, #user2, label, p,#add-user,.choiceBtn,#result,#add-chat{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+.login h1, .message h1, .status h1{
+    background-color: hsla(287, 61%, 17%, 0.8);
+    font-size:30px;
+    padding:1%;
+}
+
+/* chat */
+.message h1{
+    margin-bottom:0%;
+}
+#chat{
+    border-bottom:2px solid  hsla(287, 61%, 17%, 0.8);  
+    background: white;
+    height:250px;
+    margin-top:0%;
+    overflow:auto;
+}
+#chat h5{
+    color:Red;
+}
+#chat p{
+    color :black;
+}
+#chat-input{
+    height:50px;
+    margin-bottom: 0%;
+}
+#add-chat{
+    background:hsla(287, 61%, 17%, 0.8);
+    border: 2px solid white;
+    margin-top:1%;
+}
+
+/* jumbotron */
+.jumbotron{
+    width: 800px;
+    text-align:center;
+    margin-left:20%;
+    float: left;  
+    font-size:50px;
+    height:250px;
+    padding-top:2%;
+    background-color: hsla(263, 13%, 52%, 0.3);   
+}
+.jumbotron h1{
+    font-size:80px;
+}
+
+/* login */
+.login,form{
+    width:200px;
+    height:200px;
+    margin:2%;
+    margin-bottom:3.8%;    
+}
+
+#add-user,.choiceBtn{
+    margin-top:4%;
+    background:hsla(287, 61%, 17%, 0.8);
+    border: 2px solid white;
+}
+form{
+    padding:2%;
+    padding-right: 9%;
+}
+.login, .message,.status{
+    border: 3px solid hsla(287, 61%, 17%, 0.8);  
+    background-color: hsla(263, 13%, 52%, 0.3);
+}
+.login{
+    margin-left:5%;
+    float:right;
+}
+
+/* message */
+.message{
+    float:right;
+    margin-right:10%;
+    width:500px;
+    height: 400px;
+}
+#user1, #user2, #message{
+    padding:2%;
+}
+
+/* status */
+.status{
+    float:left;
+    margin-left:10%;
+    width:500px;
+    height: 400px;
+}
+
+/* media query */
+@media screen and (max-width: 980px) {
+    body{
+        background-size:120%;
+    }
+    .jumbotron{
+        width:700px;
+        margin-left: 3%;
+    }
+    .login{
+        margin-left:2%;
+    }
+    .status{
+        width:400px;
+        margin-left:6%;
+    }
+    .message{
+        width:400px;
+        margin-right:6%;
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-size: 215%;
+   
+    }
+    .jumbotron{
+        width:550px;
+        margin-left: 2%;
+    }
+    label{
+        font-size:20px;
+    }
+    .login{
+        width:170px;
+        margin-left:1%;
+    }
+    #user-input{
+        width:150px;
+    }
+    .status{
+        width:350px;
+        margin-left:2%;
+    }
+    .message{
+        width:350px;
+        margin-right:2%;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    body{
+        background-size: 280%;
+        margin-left:2%;
+    }
+    .login{
+        float:left;
+        width:520px;
+        margin-left:9%;
+        height:220px;
+    }
+    #user-input{
+        width:400px;
+    }
+    #add-user{
+        margin-top:5%;
+    }
+    label{
+        font-size:25px;
+    }
+    .status,.message{
+        width:520px;
+        margin-left:9%;
+        margin-bottom:3%;
+    }
+    .jumbotron{
+        margin-left: 6%;
+    }
+    #user1,#user2{
+        padding-top:0%;
+    }
+    .message{
+        float:left;
+        height:200px;
+    }
+}
