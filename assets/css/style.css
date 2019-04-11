@@ -152,7 +152,7 @@ form{
     }
     
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) { 
     body{
         background-size: 280%;
         margin-left:2%;
@@ -187,4 +187,22 @@ form{
         float:left;
         height:200px;
     }
+}
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) {
+    body{
+        background-size: cover;
+    
+    }
+    .jumbotron, .login,.status,.message{
+        margin-left:0%;
+        width: 500px;
+    }
+    .message{
+        height:300px;
+    }
+    /* .jumbotron{
+       
+    } */
 }
