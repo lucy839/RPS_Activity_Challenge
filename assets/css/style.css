@@ -192,7 +192,7 @@ form{
 and (min-width : 375px) 
 and (max-width : 667px) {
     body{
-        background-size: cover;
+        background-size: 600%;
     
     }
     .jumbotron, .login,.status,.message{
@@ -202,7 +202,4 @@ and (max-width : 667px) {
     .message{
         height:300px;
     }
-    /* .jumbotron{
-       
-    } */
 }
