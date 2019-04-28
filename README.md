@@ -1,4 +1,4 @@
-# GifTastic
+# Multiplayers RPS
 
 ## Descripion
 
