@@ -23,5 +23,7 @@
 -   Incorporate User Authentication will make this game more professional
 
 ## Link to Game
--   https://lucy839.github.io/unit-4-game-2/
+-   https://lucy839.github.io/RPS_Activity_Challenge/
 
+## Demo 
+- ![Alt text](assets/images/demo.png?raw=true  "demo")
